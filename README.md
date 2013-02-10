@@ -1,4 +1,4 @@
-# Github jQuery API.
+# Github jQuery API
 
 ## Overview
 
