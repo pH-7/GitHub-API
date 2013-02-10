@@ -24,7 +24,7 @@ var Git = {
     Git: function ()
     {
         oMe = this; // Self Object
-        this.sUsername = this.sHtmlGit.data('gituser'), // Get the GitHub Username
+        this.sUsername = this.sHtmlGit.data('gituser'); // Get the GitHub Username
 
         $.getJSON(this.sApiUrl + this.sUsername, function (oData)
         {
